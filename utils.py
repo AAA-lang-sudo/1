@@ -3,7 +3,6 @@ import numpy as np
 from PIL import Image
 from tqdm import tqdm
 from einops import rearrange
-
 from accelerate import Accelerator
 from accelerate.utils import set_seed
 from transformers import AutoTokenizer, PretrainedConfig
